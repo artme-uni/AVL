@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/AVL/avl.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/twiggy/CLion/AVL/fifo.c
+fifo.h
+/Users/twiggy/CLion/AVL/fifo.h
+
+/Users/twiggy/CLion/AVL/fifo.h
+stdlib.h
+-
+stdio.h
+-
+avl.h
+/Users/twiggy/CLion/AVL/avl.h
+
+/Users/twiggy/CLion/AVL/main.c
+fifo.h
+/Users/twiggy/CLion/AVL/fifo.h
+avl.h
+/Users/twiggy/CLion/AVL/avl.h
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/AVL.dir/main.c.o CMakeFiles/AVL.dir/fifo.c.o CMakeFiles/AVL.dir/avl.c.o  -o AVL 
